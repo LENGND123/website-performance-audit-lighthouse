@@ -37,7 +37,6 @@ The complete audit report is available in:
 
 ---
 
----
 
 ## 👨‍💻 Author
 
