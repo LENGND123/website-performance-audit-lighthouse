@@ -37,5 +37,10 @@ The complete audit report is available in:
 
 ---
 
-Created by Aditya Raj Singh  
-Web Development Internship Applicant
+---
+
+## 👨‍💻 Author
+
+**Aditya Raj Singh**  
+B.Tech CSE | Web Development & Performance Optimization Enthusiast  
+GitHub: https://github.com/LENGND123
