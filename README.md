@@ -1,42 +1,84 @@
-# Website Performance Audit (Google Lighthouse)
+# 🚀 Website Performance Audit (Google Lighthouse)
 
-This repository contains a detailed Lighthouse performance audit report of a live production website.
+A detailed Lighthouse performance audit and optimization strategy for a live production website.
 
-## 📊 Audit Overview
+---
 
-- Tool Used: Google Lighthouse (Mobile Simulation)
-- Testing Mode: Chrome Incognito
-- Performance Score: 58/100
-- Key Metrics Analyzed:
-  - First Contentful Paint (FCP)
-  - Largest Contentful Paint (LCP)
-  - Total Blocking Time (TBT)
-  - Cumulative Layout Shift (CLS)
-  - Speed Index
+## 📌 Project Overview
+
+This project analyzes the performance of a live school website using **Google Lighthouse (Mobile Simulation)** in Chrome Incognito mode.
+
+The goal was to:
+- Evaluate real-world mobile performance
+- Identify Core Web Vitals issues
+- Suggest practical optimization strategies
+- Improve overall user experience and SEO readiness
+
+---
+
+## 🛠 Tools & Testing Environment
+
+- Tool: Google Lighthouse
+- Mode: Mobile Simulation
+- Browser: Google Chrome (Incognito)
+- Network: Simulated Slow 4G
+- Lighthouse Version: 13+
+
+---
+
+## 📊 Performance Summary
+
+| Metric | Observed | Ideal |
+|--------|----------|--------|
+| Performance Score | 58/100 | 90+ |
+| First Contentful Paint (FCP) | 3.0s | < 1.8s |
+| Largest Contentful Paint (LCP) | 11.9s | < 2.5s |
+| Total Blocking Time (TBT) | 280ms | < 200ms |
+| Cumulative Layout Shift (CLS) | 0.03 | < 0.1 |
+| Speed Index | 6.5s | < 3.4s |
+
+---
 
 ## 🚨 Key Issues Identified
 
 - High LCP (11.9s)
 - Render-blocking CSS & JavaScript
-- Font loading delays
+- Font display delays
 - Unoptimized images
 - Excess JavaScript execution time
-
-## 🛠 Optimization Recommendations
-
-- Convert images to WebP
-- Implement lazy loading
-- Use font-display: swap
-- Defer non-critical JavaScript
-- Implement CDN & compression
-
-## 📄 Full Report
-
-The complete audit report is available in:
-`Website_Performance_Audit_Report.pdf`
+- Main-thread blocking tasks
 
 ---
 
+## ⚙ Optimization Recommendations
+
+- Convert hero images to WebP
+- Implement lazy loading
+- Add `font-display: swap`
+- Defer non-critical JavaScript
+- Remove unused JS & CSS
+- Implement CDN & Gzip/Brotli compression
+- Configure proper cache headers
+
+---
+
+## 📈 Expected Improvements
+
+If implemented:
+
+- Performance score can improve from **58 → 85+**
+- LCP can reduce from **11.9s → < 3s**
+- Overall load time can improve by **30–50%**
+
+---
+
+## 📄 Full Report
+
+The complete detailed audit report is available here:
+
+👉 **Website_Performance_Audit_Report.pdf**
+
+---
 
 ## 👨‍💻 Author
 
