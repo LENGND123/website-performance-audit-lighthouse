@@ -76,8 +76,8 @@ If implemented:
 
 The complete detailed audit report is available here:
 
-👉 [Download Full Audit Report (PDF)](./Website_Performance_Audit_Report.pdf)
----
+📄 **Full Detailed Report:**  
+[Click here to view the PDF](./Website_Performance_Audit_Report.pdf)---
 
 ## 👨‍💻 Author
 
